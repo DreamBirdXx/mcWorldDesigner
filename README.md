@@ -1,9 +1,9 @@
-mc_WorldDesigner is a level design and AI authoring tool for designing game levels, AI agents (NPCs Non player characters), for Unity game engine.
+mcWorldDesigner is a level design and AI authoring tool for designing game levels, AI agents (NPCs Non player characters), for Unity game engine.
 I started developing this tool for an open world RPG that I am working on, however I decided to release this for other developers to get new ideas, suggestion & to pay for my RPG development expenses. 
 
 ![alt text](https://github.com/DreamBirdXx/mcWorldDesigner/blob/main/images/main.jpg "Logo Title Text 1")
 
-**mc_WorldDesigner has two versions (however there is not much difference).**
+**mcWorldDesigner has two versions (however there is not much difference).**
 1. Basic is free, download it here.
 2. Pro is available as subscription to partons only. Become a patreon here. (First patron tier, 3$ per month only /-)
 
@@ -14,6 +14,8 @@ I started developing this tool for an open world RPG that I am working on, howev
 4. Settings.
 
 all are accessiable through one editor window and merge seamlessly to provide a smooth level design experience.
+
+**_As of --3 August 2021 12:53am-- mcWorldDesigner is in beta state, version 1 will be released soon, join this discord server to get latest updates and chat with developers using mcWorldDesigner._**
 
 Here is a brief explanation of each component, together with a tutorial to setup Mc_WorldDesigner.
 
