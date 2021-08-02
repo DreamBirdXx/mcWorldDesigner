@@ -72,8 +72,8 @@ Before you start painting using brush or any tool you need to tell painter the l
 Layer is set globally for all groups while tag can set per group.
 
 1. To set the layer go to **PainterTab-> PainterSettings-> set paint layer to mc_Paint**.
-2. To set the tag go to **Group settings-> PaintOptions -> set tag to untagged** since we didn't set any tag for the plane that we created earlier.
-3. Options you can ignore tags by going to **Group settings-> PaintOptions -> and toggle off useTag**
+2. To set the tag go to **Group settings-> PaintOptions-> set tag to untagged** since we didn't set any tag for the plane that we created earlier.
+3. Options you can ignore tags by going to **Group settings-> PaintOptions-> and toggle off useTag**
 
 ### Brush tool.
 
@@ -85,12 +85,14 @@ Layer is set globally for all groups while tag can set per group.
  * **Blue radius is a optional optimization, basically it halts the unnecessary behind the scale c# function calls for a particular distance radius (blue circle), since only a limited number of objects can be scattered in a spray radius (green), the distance radius stops the brush from updating hundreds of times per brush stroke to just 1 update per stroke, this gives a smooth painting experience.**.
 
 3. Set brush settings as follows.
- * distance radius = .
- * spray radius = .
- * remove radius = .
+ * distance radius = 2.
+ * spray radius = 4.
+ * remove radius = 6.
+Or anything you like.
 
 4. To paint, hold ctrl + mouse button 1 drag to paint meshes.
 5. Hold shift + mouse button 1 to remove paint. 
-6. If the PaintMeshes are spawning tool close, remove them and increase distance by going to -> **Group Settings -> and change Min distance,** and then repaint.
-7. After you have finished painting disable brush by going pressing "B-" located on bottom buttons panel. 
+6. If the PaintMeshes are spawning tool close or too further apart, remove them and increase or decrease min distance by going to-> **Group Settings-> and change Min distance,** and then repaint.
+7. All PaintMeshes have an important property called "radius", 
+8. After you have finished painting disable brush by going pressing "B-" located on bottom buttons panel. 
 
