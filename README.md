@@ -19,6 +19,9 @@ all are accessiable through one editor window and merge seamlessly to provide a 
 
 Here is a brief explanation of each component, together with a tutorial to setup Mc_WorldDesigner.
 
+<a href="https://youtu.be/711mmytbcls" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="basic setup" width="240" height="180" border="10" /></a>
+
 ## Painter.
 Is the mesh painting or scattering component of mc_WorldDesigner, you can place objects manually or paint them algorithmically on any surface or unity terrain using tools such as
 1. brush paint
