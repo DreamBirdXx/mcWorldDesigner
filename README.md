@@ -1,9 +1,9 @@
-Mc_WorldDesigner is a level design and AI authoring tool for designing game levels, AI agents (NPCs Non player characters), for Unity game engine.
+mc_WorldDesigner is a level design and AI authoring tool for designing game levels, AI agents (NPCs Non player characters), for Unity game engine.
 I started developing this tool for an open world RPG that I am working on, however I decided to release this for other developers to get new ideas, suggestion & to pay for my RPG development expenses. 
 
 ![alt text](https://github.com/DreamBirdXx/mcWorldDesigner/blob/main/images/main.jpg "Logo Title Text 1")
 
-**Mc_WorldDesigner has two versions (however there is not much difference).**
+**mc_WorldDesigner has two versions (however there is not much difference).**
 1. Basic is free, download it here.
 2. Pro is available as subscription to partons only. Become a patreon here. (First patron tier, 3$ per month only /-)
 
@@ -18,7 +18,7 @@ all are accessiable through one editor window and merge seamlessly to provide a 
 Here is a brief explanation of each component, together with a tutorial to setup Mc_WorldDesigner.
 
 ## Painter.
-Is the mesh painting or scattering component of Mc_WorldDesigner, you can place objects manually or paint them algorithmically on any surface or unity terrain using tools such as
+Is the mesh painting or scattering component of mc_WorldDesigner, you can place objects manually or paint them algorithmically on any surface or unity terrain using tools such as
 1. brush paint
 2. area spawner and 
 3. global spawner
@@ -26,12 +26,12 @@ Is the mesh painting or scattering component of Mc_WorldDesigner, you can place 
 
 ### Getting started with cocepts of Painter component.
 
-**_I would highly recommend that you start a new scene and follow along the instructions in this section before you integerate the Mc_WorldDesigner in your projects._**
+**_I would highly recommend that you start a new scene and follow along the instructions in this section before you integerate the mc_WorldDesigner in your projects._**
 
 ### Setting up a test scene.
 1. Create a new scene.
 2. Create new new gameobject plane and scale it **x=10, y=1, z=10** and position it **x=50, y=0, z=50,** so that it's bottom  left corner is at origin.
-3. Mc_WorldDesigner needs to know the layer to paint on, so create a new layer name it **mc_Paint** layer. You can use any layer but for the sake of clearity we are creating a new layer. The object that you want to paint on must be set to this layer.
+3. mc_WorldDesigner needs to know the layer to paint on, so create a new layer name it **mc_Paint** layer. You can use any layer but for the sake of clearity we are creating a new layer. The object that you want to paint on must be set to this layer.
 4. Set this new gameobject to use mc_Paint layer that we just created.
 5. Open up **mc_WorldDesigner menubar-> Mc-> WorldDesigner,** you cannot init the Mc_WorldDesigner just yet.
 6. Now go to **Project-> Mc_WorldDesigner-> resources** and drag mc_Renderer prefab into the scene.
@@ -60,7 +60,7 @@ This is the actual mesh / game object that will be painted or scattered via any 
    To be painted on any surface, Paint meshes are plugged into groups.  
    **Both PaintMeshes and Mc_PaintGroups have a category settings, before plugging a paint mesh into a group, make sure category of a PaintGroup and PaintMesh are same.**  
 
-1. To create a new paint mesh go to **Project-> Mc_WorldDesigner-> TestFolder-> RightClick-> Create-> mcWorldDesigner-> Painter-> PaintMesh.**
+1. To create a new paint mesh go to **Project-> mc_WorldDesigner-> TestFolder-> RightClick-> Create-> mcWorldDesigner-> Painter-> PaintMesh.**
 3. Paint meshes needs a game object reference and a material to be applied for referenced game object, create a new game object in scene view and drag it into **Project-> Mc_WorldDesigner-> TestFolder** change it's scale to anything you like but make sure **position and rotation is set to Vector3(0, 0, 0)**, also create a material for it.
 4. Set the category of the paint mesh depending on type of gameobject you refrenced.
 5. To plug a paint mesh into a group, select a group and add a new paint mesh slot click "PM++" button located on buttons panel at bottom of window.
