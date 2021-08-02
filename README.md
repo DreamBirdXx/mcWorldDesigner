@@ -60,7 +60,7 @@ This is the actual mesh / game object that will be painted or scattered via any 
    To be painted on any surface, Paint meshes are plugged into groups.  
    **Both PaintMeshes and Mc_PaintGroups have a category settings, before plugging a paint mesh into a group, make sure category of a PaintGroup and PaintMesh are same.**  
 
-1. To create a new paint mesh go to **Project-> Mc_WorldDesigner-> TestFolder-> RightClick-> Create-> mcWorldDesigner-> PaintMesh.**
+1. To create a new paint mesh go to **Project-> Mc_WorldDesigner-> TestFolder-> RightClick-> Create-> mcWorldDesigner-> Painter-> PaintMesh.**
 3. Paint meshes needs a game object reference and a material to be applied for referenced game object, create a new game object in scene view and drag it into **Project-> Mc_WorldDesigner-> TestFolder** change it's scale to anything you like but make sure **position and rotation is set to Vector3(0, 0, 0)**, also create a material for it.
 4. Set the category of the paint mesh depending on type of gameobject you refrenced.
 5. To plug a paint mesh into a group, select a group and add a new paint mesh slot click "PM++" button located on buttons panel at bottom of window.
