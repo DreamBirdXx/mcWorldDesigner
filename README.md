@@ -17,7 +17,7 @@ all are accessiable through one editor window and merge seamlessly to provide a 
 
 **_As of --3 August 2021 12:53am-- mcWorldDesigner is in beta state, version 1 will be released soon, join this discord server to get latest updates and chat with developers using mcWorldDesigner._**
 
-Here is a brief explanation of each component, together with a tutorial to setup Mc_WorldDesigner.
+Here is a brief explanation of each component, together with a tutorial to setup mcWorldDesigner.
 
 <a href="https://youtu.be/711mmytbcls" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
 alt="basic setup" width="240" height="180" border="10" /></a>
@@ -36,10 +36,10 @@ Is the mesh painting or scattering component of mc_WorldDesigner, you can place 
 ### Setting up a test scene.
 1. Create a new scene.
 2. Create new new gameobject plane and scale it **x=10, y=1, z=10** and position it **x=50, y=0, z=50,** so that it's bottom  left corner is at origin.
-3. mc_WorldDesigner needs to know the layer to paint on, so create a new layer name it **mc_Paint** layer. You can use any layer but for the sake of clearity we are creating a new layer. The object that you want to paint on must be set to this layer.
+3. mcWorldDesigner needs to know the layer to paint on, so create a new layer name it **mc_Paint** layer. You can use any layer but for the sake of clearity we are creating a new layer. The object that you want to paint on must be set to this layer.
 4. Set this new gameobject to use mc_Paint layer that we just created.
-5. Open up **mc_WorldDesigner menubar-> Mc-> WorldDesigner,** you cannot init the Mc_WorldDesigner just yet.
-6. Now go to **Project-> Mc_WorldDesigner-> resources** and drag mc_Renderer prefab into the scene.
+5. Open up **mcWorldDesigner menubar-> Mc-> WorldDesigner,** you cannot init the Mc_WorldDesigner just yet.
+6. Now go to **Project-> mcWorldDesigner-> resources** and drag mc_Renderer prefab into the scene.
 7. Now go to WorldDesigner window and click init.
 
 ### Grid.
