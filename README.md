@@ -30,7 +30,7 @@ Is the mesh painting or scattering component of Mc_WorldDesigner, you can place 
 
 ### Setting up a test scene.
 1. Create a new scene.
-2. Mc_WorldDesigner needs to know the layer to paint on, socCreate a new layer name it **mc_Paint** layer. You can use any layer but for the sake of clearity we are creating a new layer. The object that you want to paint on must be set to this layer.
+2. Mc_WorldDesigner needs to know the layer to paint on, so create a new layer name it **mc_Paint** layer. You can use any layer but for the sake of clearity we are creating a new layer. The object that you want to paint on must be set to this layer.
 3. Create new new gameobject plane and scale it **x=10, y=1, z=10** and position it **x=50, y=0, z=50,** so that it's bottom  left corner is at origin.
 4. Set this new gameobject to use mc_Paint layer that we just created.
 5. Open up **mc_WorldDesigner menubar-> Mc-> WorldDesigner,** you cannot init the Mc_WorldDesigner just yet.
