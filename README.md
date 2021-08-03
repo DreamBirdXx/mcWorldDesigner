@@ -17,9 +17,9 @@ all are accessiable through one editor window and merge seamlessly to provide a 
 
 **_As of --3 August 2021 12:53am-- mcWorldDesigner is in beta state, there is no difference between patreon and free version, version 1 will be released on august 6 or 7 & will have separate patreon and free versions , join this discord server to get latest updates and chat with developers using mcWorldDesigner._**
 
-Here is a brief explanation of each component, together with a tutorial to setup mcWorldDesigner.
+Here is a brief explanation of each component, together with a video to setup mcWorldDesigner.
 
-<a href="https://youtu.be/711mmytbcls" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+<a href="https://youtu.be/E1HTGsn2xUQ" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
 alt="basic setup" width="240" height="180" border="10" /></a>
 
 ## Painter.
