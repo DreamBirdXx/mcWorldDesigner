@@ -15,7 +15,7 @@ I started developing this tool for an open world RPG that I am working on, howev
 
 all are accessiable through one editor window and merge seamlessly to provide a smooth level design experience.
 
-**_As of --3 August 2021 12:53am-- mcWorldDesigner is in beta state, version 1 will be released soon, join this discord server to get latest updates and chat with developers using mcWorldDesigner._**
+**_As of --3 August 2021 12:53am-- mcWorldDesigner is in beta state, there is no difference between patreon and free version, version 1 will be released on august 6 or 7 & will have separate patreon and free versions , join this discord server to get latest updates and chat with developers using mcWorldDesigner._**
 
 Here is a brief explanation of each component, together with a tutorial to setup mcWorldDesigner.
 
@@ -28,6 +28,17 @@ Is the mesh painting or scattering component of mc_WorldDesigner, you can place 
 2. area spawner and 
 3. global spawner
 4. Or use the path tool to, spawn objects along a spline and create fences, paths, dirt roads etc.
+
+The design of mcWorldDesigner is such that it can be configured to scatter or paint different types of objects for example 
+* foliage
+* quest items 
+* randomly scattered fallen leaves or 
+* debris etc.
+* 
+Plus there are different algorithms for different kinds of objects, for example,
+* seed based dispersion for foliage
+* weighted probability for spawing objects according to their spawn probability
+* or completly random.
 
 ### Getting started with cocepts of Painter component.
 
