@@ -34,11 +34,12 @@ The design of mcWorldDesigner is such that it can be configured to scatter or pa
 * quest items 
 * randomly scattered fallen leaves or 
 * debris etc.
-* 
+
 Plus there are different algorithms for different kinds of objects, for example,
 * seed based dispersion for foliage
-* weighted probability for spawing objects according to their spawn probability
+* weighted probability for spawing objects according to their spawn probability such as for quest items
 * or completly random.
+* plus you can combine and mix these algorithms for unique results.
 
 ### Getting started with cocepts of Painter component.
 
