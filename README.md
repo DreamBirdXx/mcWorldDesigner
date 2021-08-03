@@ -19,7 +19,7 @@ all are accessiable through one editor window and merge seamlessly to provide a 
 
 Here is a brief explanation of each component, together with a video to setup mcWorldDesigner.
 
-<a href="https://youtu.be/E1HTGsn2xUQ" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+<a href="https://youtu.be/Jv3zUtqPjyY" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
 alt="basic setup" width="240" height="180" border="10" /></a>
 
 ## Painter.
